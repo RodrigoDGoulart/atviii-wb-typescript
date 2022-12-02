@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.opcao {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #6A6A6A;
+    border-radius: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 6px;
+}
+
+.opcao:hover {
+    cursor: pointer;
+}
+
+.naoSelecionado {
+    display: none;
+}
+
+.selecionado {
+    width: 10px;
+    height: 10px;
+    background-color: #54265C;
+    border-radius: 100%;
+}

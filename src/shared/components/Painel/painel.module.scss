@@ -1,0 +1,81 @@
+.fundo {
+    background-color: #F2F2F2;
+    padding: 10px 12px 10px 12px;
+    border-radius: 20px;
+
+    margin-bottom: 12px;
+
+    border: none;
+    text-align: left;
+}
+
+.clickable:hover {
+    cursor: pointer;
+    background-color: #e2e2e2;
+}
+
+.fundoRanking {
+    display: flex;
+}
+
+.fundoRanking *:last-child {
+    flex: 1;
+}
+
+.ranking {
+    font-size: 36px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.foto {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-right: 12px;
+
+    background-position: center;
+    background-size: cover;
+}
+
+.conteudo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo * {
+    margin: 0px;
+    color: #54265C;
+}
+
+.conteudo *:first-child{
+    font-size: 22px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.buttons *:hover {
+    cursor: pointer;
+}
+
+.edit {
+    color: #026700;
+}
+
+.delete {
+    color: #A50000;
+    margin-left: 12px;
+}

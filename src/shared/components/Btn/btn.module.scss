@@ -1,0 +1,96 @@
+.fundo {
+    background-position: center;
+    background-size: cover;
+    border: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-weight: bold;
+    transition: all 0.5s;
+
+    border-radius: 10px;
+    min-width: 450px;
+    max-width: 800px;
+    width: 80%;
+    height: 200px;
+    font-size: 24px;
+}
+
+.fundo:hover{
+    cursor: pointer;
+    font-size: 36px;
+}
+
+.btn {
+    padding: 6px 6px 6px 6px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.confirm {
+    color: #026700;
+    background-color: #7BE786;
+}
+
+.confirm:hover {
+    background-color: #aef7b5;
+}
+
+.cancel {
+    color: #A50000;
+    background-color: #F59F9F;
+}
+
+.cancel:hover {
+    background-color: #f3c4c4;
+}
+
+.blue {
+    color: #000467;
+    background-color: #9FA3FF;
+}
+
+.blue:hover {
+    background-color: #c3c4fc;
+}
+
+.selectContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 33px;
+    width: 100%;
+    margin: 5px;
+}
+
+.selectContainer:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.enable {
+    border-bottom: 2px solid #54265C;
+    color: #54265C;
+}
+
+.disable {
+    border-bottom: 2px solid #6A6A6A;
+    color: #6A6A6A;
+}
+
+.exemplo {
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+}

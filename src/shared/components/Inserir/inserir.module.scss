@@ -1,0 +1,116 @@
+.label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin-bottom: 12px;
+}
+
+.input {
+    background-color: #F2F2F2;
+    border: none;
+    padding: 4px 4px 4px 10px;
+    color: #6A6A6A;
+    font-size: 18px;
+    border-radius: 5px;
+    height: 24px;
+}
+
+.input::placeholder{
+    color: #C7C7C7;
+    font-size: 18px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.rotulo {
+    color: #54265C;
+    font-size: 18px;
+    margin: 0px;
+    font-weight: normal;
+}
+
+.ineditavel {
+    color: #6A6A6A;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.pesquisa {
+    background-color: transparent;
+    border: none;
+    color: #C7C7C7;
+    font-size: 18px;
+    flex: 1;
+}
+
+.pesquisa:focus {
+    outline: none;
+}
+
+.input * {
+    padding: 0px;
+    margin: 0px;
+}
+
+.align {
+    display: flex;
+    width: auto;
+    align-items: center;
+}
+
+.align * {
+    color: #C7C7C7;
+}
+
+.align *:first-child {
+    margin-right: 12px;
+}
+
+.align input{
+    color: #6A6A6A;
+}
+
+.align input::placeholder{
+    color: #C7C7C7;
+}
+
+.addImgInput {
+    display: none;
+}
+
+.addImgBtn {
+    border-radius: 100%;
+    background-color: #54265C;
+    width: 80px;
+    height: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    transition: all 0.25s;
+}
+
+.addImgBtn:hover{
+    cursor:pointer;
+    font-size: 35px;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    background-size: cover;
+    background-position: center;
+}
+
+.invisible {
+    display: none;
+}

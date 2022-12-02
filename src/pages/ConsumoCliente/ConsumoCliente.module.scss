@@ -1,0 +1,49 @@
+.container {
+    width: 80%;
+    margin: 36px auto;
+}
+
+.div {
+    margin-bottom: 12px;
+    display: flex;
+
+    &__dominant {
+        flex: 1;
+    }
+
+    &__minor {
+        padding-left: 6px;
+        padding-right: 6px;
+        margin-right: 12px;
+    }
+}
+
+.div2 {
+    margin-bottom: 24px;
+}
+
+.addIcon {
+    margin-right: 12px;
+}
+
+.title {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    margin-right: 18px;
+    width: 48px;
+    height: 48px;
+}
+
+.header {
+    width: fit-content;
+    margin: 0;
+}
+
+.aba {
+    margin-top: 12px;
+}

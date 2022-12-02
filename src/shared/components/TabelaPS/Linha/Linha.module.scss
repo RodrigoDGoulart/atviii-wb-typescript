@@ -1,0 +1,9 @@
+.linha {
+    line-height: 36px;
+    border-bottom: 1px solid #6A6A6A;
+    text-align: center;
+}
+
+.linha:last-child {
+    border: none;
+}

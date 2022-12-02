@@ -1,0 +1,17 @@
+.font {
+    font-size: 12px;
+    color: #B3B3B3;
+    transition: all 0.25s;
+    background: none;
+    padding: 0;
+    border: none;
+}
+
+.font:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.selected {
+    color: white;
+}

@@ -1,0 +1,21 @@
+.container {
+    padding: 0 12px;
+    padding-bottom: 6px;
+    border: none;
+    background: none;
+    border-bottom: 2px solid #C7C7C7;
+    text-align: center;
+    font-size: 18px;
+    color: #C7C7C7;
+    transition: all 0.5s;
+}
+
+.container:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.selecionado {
+    color: #54265C;
+    border-bottom: 2px solid #54265C;
+}

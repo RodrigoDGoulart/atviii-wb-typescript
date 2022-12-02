@@ -1,0 +1,23 @@
+.modal {
+    padding: 24px;
+    width: 450px;
+    margin: 250px auto;
+    border-radius: 18px;
+    background-color: #F2F2F2;
+    border: 2px solid #C7C7C7;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btns {
+    display: flex;
+    margin-top: 24px;
+
+    &__btn:first-child {
+        margin-right: 24px;
+    }
+}

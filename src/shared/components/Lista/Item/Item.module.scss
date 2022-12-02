@@ -1,0 +1,37 @@
+.point {
+    margin-right: 6px;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background-color: #54265C;
+}
+
+.item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    margin-bottom: 6px;
+}
+
+.btn {
+    background: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+    display: none;
+}
+
+.icon {
+    font-size: 12px;
+    display: block;
+    margin-left: 6px;
+}
+
+.item:hover .btn {
+    display: block;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
